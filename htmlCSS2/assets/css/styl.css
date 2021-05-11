@@ -1,0 +1,44 @@
+* {
+
+    text-align: center;
+}
+
+h1{
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 30px;
+
+}
+
+.tablo{
+    /* solid veya double veya dashed olabilir */
+    /* cizgi kalinligi, cizgi turu, renk */
+border: 3px solid grey;
+border-collapse: collapse;
+width: 30%; 
+/* yuzdelik dilim sayfaya gore hesaplanir */
+margin-left: auto; 
+margin-right: auto;
+/* sag ve soldan otomatik bosluk koyarak nesneler hizalanir */
+
+}
+/* Birden fazla atribut e ayni stillendirme yapilacaksa 
+virgulle ayrilarak yapilabilir */
+td,
+th{
+    border: 3px solid grey;
+}
+th{
+    background-color: hotpink;
+}
+tr:hover {
+    background-color: khaki;
+    /* uzerine gittiginde hareketlilik verir */
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+    /* zebra cizgisi icin kullanilir */
+}
+
+
+
